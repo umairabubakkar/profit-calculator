@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.highlight {
+    background-color: #ffcccc;
+}
+.currency-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.currency-summary-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.currency-code {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.currency-profit {
+    font-size: 16px;
+}
+.negative-profit {
+    background-color: #ffcccc;
+}
