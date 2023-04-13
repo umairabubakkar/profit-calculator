@@ -1,8 +1,8 @@
 <?php
-$servername = "139.59.64.115";
-$username = "gsmp_dhru";
-$password = "fd1c0fb00fe8b937ba476cf41c12123@1122";
-$dbname = "gsmp_dhru";
+$servername = "your_server";
+$username = "database_user";
+$password = "database_pass";
+$dbname = "database_name";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
